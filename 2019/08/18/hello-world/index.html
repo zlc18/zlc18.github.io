@@ -57,7 +57,7 @@
         </a>
         <hgroup class="introduce">
           <h5 class="nickname">zengluchuan</h5>
-          <a href="mailto:634206017@qq.com" title="634206017@qq.com" class="mail">634206017@qq.com</a>
+          <a href="mailto:2827212797@qq.com" title="2827212797@qq.com" class="mail">2827212797@qq.com</a>
         </hgroup>
       </div>
     </div>
@@ -93,23 +93,23 @@
             </li>
         
             <li class="waves-block waves-effect">
-              <a href="https://github.com/yscoder" target="_blank" >
+              <a href="https://github.com/zlc18" target="_blank" >
                 <i class="icon icon-lg icon-github"></i>
                 Github
               </a>
             </li>
         
             <li class="waves-block waves-effect">
-              <a href="http://www.weibo.com/ysweb" target="_blank" >
+              <a href="https://weibo.com/p/1005056013895201/home?from=page_100505&mod=TAB&is_all=1#place" target="_blank" >
                 <i class="icon icon-lg icon-weibo"></i>
                 Weibo
               </a>
             </li>
         
             <li class="waves-block waves-effect">
-              <a href="../../../../custom"  >
+              <a href="https://www.ncu.edu.cn"  >
                 <i class="icon icon-lg icon-link"></i>
-                测试
+                工作室
               </a>
             </li>
         
@@ -219,7 +219,7 @@
 
 
         
-        这里可以写作者留言，标签和 hexo 中所有变量及辅助函数等均可调用，示例：<a href="" target="_blank" rel="external">http://zlc18.github.io/2019/08/18/hello-world/</a>
+        本文作者：曾路川 版权声明：本文为博主原创文章，遵循 CC 4.0 by-sa 版权协议，转载请附上原文出处链接和本声明。<a href="" target="_blank" rel="external">http://zlc18.github.io/2019/08/18/hello-world/</a>
         
     </div>
     
@@ -307,6 +307,30 @@
 
 
 
+    <!-- Valine Comments -->
+    <div class="comments vcomment" id="comments"></div>
+    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+    <script src="//unpkg.com/valine@latest/dist/Valine.min.js"></script>
+    <!-- Valine Comments script -->
+    <script>
+        var GUEST_INFO = ['nick','mail','link'];
+        var guest_info = 'nick,mail,link'.split(',').filter(function(item){
+          return GUEST_INFO.indexOf(item) > -1
+        });
+        new Valine({
+            el: '#comments',
+            notify: 'true' == 'true',
+            verify: 'true' == 'true',
+            appId: "XC2pVSfHpABP5cVfMsXEODQz-gzGzoHsz",
+            appKey: "Vn3tPf9zTNsWysxSFUsWRcAw",
+            avatar: "mm",
+            placeholder: "点击此处评论",
+            guest_info: guest_info.length == 0 ? GUEST_INFO : guest_info,
+            pageSize: "5"
+        })
+    </script>
+    <!-- Valine Comments end -->
+
 
 
 
@@ -367,8 +391,10 @@
         </p>
     </div>
     <div class="bottom">
-        <p><span>zengluchuan &copy; 2015 - 2019</span>
+        <p><span>zengluchuan &copy; 2019</span>
             <span>
+                
+                <a href="http://www.miitbeian.gov.cn/" target="_blank">京ICP备1234556号-1</a><br>
                 
                 Power by <a href="http://hexo.io/" target="_blank">Hexo</a> Theme <a href="https://github.com/yscoder/hexo-theme-indigo" target="_blank">indigo</a>
             </span>
@@ -431,6 +457,8 @@
 <script>
 var BLOG = { ROOT: '/', SHARE: true, REWARD: true };
 
+
+lazyScripts.push('//s95.cnzz.com/z_stat.php?id=1277934438&web_id=1277934438')
 
 </script>
 
