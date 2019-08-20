@@ -28,9 +28,9 @@ const ap = new APlayer({
       },
       
       {
-        name: '回答（纯享版）',
-        artist: 'Train',
-        url: 'http://www.ytmp3.cn/down/73856.mp3',
+        name: '忘记时间',
+        artist: '胡歌',
+        url: 'http://www.ytmp3.cn/down/57699.mp3',
         cover: 'https://upload.wikimedia.org/wikipedia/en/thumb/6/69/Train_50_Ways_to_Say_Goodbye.jpg/220px-Train_50_Ways_to_Say_Goodbye.jpg',
       },
       
